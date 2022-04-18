@@ -14,7 +14,7 @@ Keywords=[{{length(map(2.data.keywords; "keyword"))}}]
 {{replace(toString(map(2.data.keywords; "keyword")); ","; newline)}}
 
 curl --location -g --request GET 'https://api.airtable.com/v0/app86LmlEkcuXky6X/Catalogo01?filterByFormula={nlpid}=%22000%22&fields[]=Texto' \
---header 'Authorization: Bearer keymXP0HCtPpeNGRI' \
+
 
 https://api.airtable.com/v0/app86LmlEkcuXky6X/Catalogo01?filterByFormula={nlpid}=%22000%22&fields[]=Texto
 
