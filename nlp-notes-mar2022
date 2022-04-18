@@ -1,0 +1,50 @@
+assy cart spyglass zero cost 13182932, autolith touch ehl probe - spyglass ds bsc15313, autolith touch ehl probe - spyglass ds bsc15314, m0054604z0, m0054610z0, m0054612z0, m0054616z0, m0054619z0, m0054621z0, m0054625z0, m00546620, spyglass, spyglass camera ntsc zero cost 91488, spyglass light cable zero cost 255u, spyglass lightsource zero cost 10710, spyglass ocular camera zero cost 919104, spyglass power cable pack zero cost fgh382, spyglass video monitor zero cost 86539620
+
+
+https://hook.integromat.com/mv9wcderfnd1xllz0nwq2lnd6mubiu65
+
+{{map(2.data.keywords; "keyword")}}
+Keywords=[{{length(map(2.data.keywords; "keyword"))}}]
+{{replace(toString(map(2.data.keywords; "keyword")); ","; newline)}}
+
+
+
+
+Keywords=[{{length(map(2.data.keywords; "keyword"))}}]
+{{replace(toString(map(2.data.keywords; "keyword")); ","; newline)}}
+
+curl --location -g --request GET 'https://api.airtable.com/v0/app86LmlEkcuXky6X/Catalogo01?filterByFormula={nlpid}=%22000%22&fields[]=Texto' \
+--header 'Authorization: Bearer keymXP0HCtPpeNGRI' \
+
+https://api.airtable.com/v0/app86LmlEkcuXky6X/Catalogo01?filterByFormula={nlpid}=%22000%22&fields[]=Texto
+
+
+@results.resultado.category
+
+https://api.airtable.com/v0/app86LmlEkcuXky6X/Catalogo01?filterByFormula={nlpid}=%22@results.resultado.category%22&fields[]=Texto
+
+
+["EQC-ANG","EQC-AUR","EQC-ILA","EQC-SPY","UR-LI-106","UR-PR-107","cardiologia","electrofisiologia","endoscopia Pulmonar"," gastroenterologia","neuromodulacion","urologia","vascular periferico"]
+
+https://hook.integromat.com/rmri14gdovtp2f40k7b6mg2dc9imuv7m?nlpid=EQC-SPY
+
+
+urologia
+EQC-SPY
+
+Lista Sinonimos WIT
+https://hook.integromat.com/fak1v16ik5m7ix72rhjfqmob2m9twr2c?nlpid=EQC-SPY
+
+https://api.wit.ai/entities/producto/
+
+{{map(2.data.keywords; "keyword")}}
+
+
+{{map(2.data.keywords; "synonyms"; "keyword"; 1.nlpid)}}
+
+{{map(map(2.data.keywords; "synonyms"; "keyword"; 1.nlpid);"synonyms")}}
+
+
+
+
+
